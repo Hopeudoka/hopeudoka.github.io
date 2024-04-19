@@ -1,15 +1,24 @@
-h1 {
-    color: red;
-    text-align: center;
-}
 
-h4 {
-    text-align: center;
-}
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+}
+
+img {
+    margin-top: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.menu_list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
 }
 
 
+body {
+    background: linear-gradient(to right, #2e2b2b 10%, #25425e 50%); /* Set background gradient */
+}
