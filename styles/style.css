@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #E5E5E5;
+    --accent1-color: #FCA311;
+    --accent2-color: #14213D;
+
+    --heading-font: 'play display', serif;
+    --paragraph-font: 'open sans', serif;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #14213D;
+    --nav-hover-link-color: #E5E5E5;
+    --nav-hover-background-color: #FCA311;
+}
+
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+img {
+    margin-top: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.menu_list {
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.menu_list a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_list a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* body {
+    background: linear-gradient(to right, #2e2b2b 10%, #25425e 50%); Set background gradient 
+} */
