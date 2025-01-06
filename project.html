@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Project</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <meta name="author" content="Hope Udoka">
+        <meta name="description" content="A webpage for Hope Udoka, displaying His information such as qualifications and so on.">
+        <script src="scripts/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <a class="menu-list" href="#"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div>
+                <h1 id="projects">Projects</h1>
+            
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <img src="images/Ibiono_stake.png" alt="A screenshot of the website homepage">
+                        <h2 class="adjust">Ibiono Stake Center</h2>
+                        <p>A website showcasing the new built Ibiono Stake Center with facts, pictures and a form to contact the missionaries. <a href="#">Learn More</a></p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Course_homepage.png" alt="A screenshot of the website homepage">
+                        <h2 class="adjust">WWD130 Course Homepage</h2>
+                        <p>A BYUI course WDD130 homepage with access to linkedin, Canvas and course materials. <a href="#">Learn More</a></p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/whitewater_rafting.png" alt="A screenshot of the website homepage">
+                        <h2 class="adjust">A white water rafting website</h2>
+                        <p>A website for a White water rafting company with ride prices and a form to book a trip. <a href="#">Learn More</a></p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/lagos.png" alt="A screenshot of the website homepage">
+                        <h2 class="adjust">Lagos State</h2>
+                        <p>A website about Lagos state with facts and guides.  <a href="#">Learn More</a></p>
+                    </div>
+            
+                    <div class="carousel-navigation">
+                        <button onclick="prevSlide()">&#10094;</button>
+                        <button onclick="nextSlide()">&#10095;</button>
+                    </div>
+                    <div class="carousel-dots">
+                        <div class="dot active-dot" onclick="currentSlide(0)"></div>
+                        <div class="dot" onclick="currentSlide(1)"></div>
+                        <div class="dot" onclick="currentSlide(2)"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            &copy;2024 | Hope Udoka | Software Developer
+        </footer>
+    </body>
+</html>
