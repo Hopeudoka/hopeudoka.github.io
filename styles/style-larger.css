@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32rem) {
+    .menu-list {
+        display: none;
+    }
+
+    #space {
+        display: block;
+        font-size: x-large;
+        margin-right: auto;
+        /* font-size: larger; */
+        /* color: var(--accent1-color); */
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: right;
+    }
+}
