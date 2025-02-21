@@ -8,7 +8,17 @@
         font-size: x-large;
         margin-right: auto;
         /* font-size: larger; */
-        /* color: var(--accent1-color); */
+        /* color: white; */
+    }
+
+    #space a {
+        color: saddlebrown;
+        font-size: larger;
+    }
+
+    #space a:hover {
+        text-decoration: none;
+        font-weight: 100;
     }
 
     .navigation {
