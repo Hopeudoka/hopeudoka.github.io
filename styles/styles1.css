@@ -103,26 +103,26 @@ footer {
     margin-bottom: .5em;
 }
 
-.carousel-container {
-    width: 80%; /* Adjust as needed */
+/* .carousel-container {
+    width: 80%; Adjust as needed
     margin: 20px auto;
     overflow: hidden;
     position: relative;
-}
+} 
 
 .carousel-slide {
     display: none;
-    width: 100%;
-    text-align: center; /* Center content within slides */
-}
-.carousel-slide img{
+    width: 100%; */
+    /* text-align: center; Center content within slides */
+/* } */
+/* .carousel-slide img{
     max-width: 100%;
     height: auto;
-}
+} */
 
-.carousel-slide.active {
+/* .carousel-slide.active {
     display: block;
-}
+} */
 
 .carousel-navigation {
     position: absolute;
@@ -196,15 +196,17 @@ footer {
 }
 
 .carousel {
-    width: ;
-    height: ;
+    width: 70%;
+    height: auto;
     position: relative;
+    margin: 0 auto;
 }
 
 .carousel > ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    width: 100%;
 }
 
 .slide {
@@ -216,9 +218,10 @@ footer {
 /* next CSS is optional. It makes the image cover the screen. */
 .slide > img {
     display: block;
-    width: ;
-    height: ;
-    object-fit: ;
+    margin: 0;
+    width: 100%;
+    height: auto;
+
 }
 
 .slide[data-active] {
@@ -233,7 +236,6 @@ footer {
     font-size: 4rem;
     top: 50%;
     transform: translateY(-50%);
-    color: ;
     cursor: pointer;
     border-radius: .25rem;
     padding: 0 .5rem;
